@@ -1,0 +1,51 @@
+.banner{
+    &__slide{
+        position: relative;
+        display: flex;
+        padding: 45px 75px;
+        background-color: #FFE2B5;
+        border-radius: 35px;
+        min-height: 440px;
+    }
+    &__title{
+        color: #000;
+        margin-bottom: 10px;
+        font-size: 52px;
+        font-weight: 400;
+        &-secondary{
+            font-weight: 700;
+        }
+    }
+    &__description{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    &__button{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 15px 25px;
+        background-color: #000;
+        color: #D0AD37;
+        border-radius: 30px;
+    }
+    &__image{
+        position: absolute;
+        bottom: 0;
+        right: 24px;
+        z-index: 1;
+        &-text{
+            position: absolute;
+            right: 24px;
+            font-size: 307px;
+            font-weight: 700;
+            color: #F5CF94;
+            z-index: 0;
+        }
+    }
+    &__bottom{
+        position: absolute;
+        bottom: -50px;
+        right: 50%;
+    }
+}
